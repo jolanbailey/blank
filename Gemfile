@@ -8,7 +8,7 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'require_all' #=> Helps to load dependencies
 gem 'sqlite3'
-gem 'thin'
+gem 'puma'
 gem 'shotgun', git: 'https://github.com/delonnewman/shotgun.git'
 gem 'pry'
 gem 'bcrypt'

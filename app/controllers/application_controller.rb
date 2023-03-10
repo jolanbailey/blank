@@ -6,6 +6,6 @@ class ApplicationController < Sinatra::Base
     #end
     
     get '/' do
-        'Hello, World!'
+        File.read(File.join('app/views', 'index.html'))
     end
 end
